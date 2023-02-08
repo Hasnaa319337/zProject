@@ -1,0 +1,9 @@
+{
+    "catData": [
+        { "id":1, "categorieName": "Jellabiya", "img": "src/assets/images/jellabiya.jpg" },
+        { "id":2, "categorieName": "cloch", "img": "src/assets/images/cloch.jpg" },
+        { "id":3, "categorieName": "abaya", "img": "src/assets/images/abaya.png" },
+        { "id":4, "categorieName": "farasha", "img": "src/assets/images/farasha.jpg" },
+        { "id":5, "categorieName": "sale upto 60%", "img": "src/assets/images/sale.jpg" }
+      ]
+}

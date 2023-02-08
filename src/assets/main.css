@@ -1,0 +1,136 @@
+@import "./base.css";
+
+.app{
+  /* font-family: Poppins Light, Helvetica, Arial, sans-serif; */
+       font-family: "Poppins Light";
+
+}
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background:   rgb(231, 231, 231)      /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--vt-c-volite); ;/* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+html{
+  scroll-behavior: smooth;
+}
+.accordion-button,.collapsed{
+  color: var(--vt-c-volite);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+.accordion-button:focus{
+  color: var(--vt-c-volite);
+}
+.accordion-item{
+  margin-bottom: 20px;
+  
+}
+.accordion-item:not(:first-of-type){
+  border-top: 1px solid #cccccc7a !important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  font-family: "Poppins Light " sans-serif !important;
+  font-weight: 400;
+  line-height: 23px;
+  font-size: 15px;
+  padding: 15px 0;
+  float: left;
+  margin-right: 29px;
+}
+li:last-of-type {
+  margin-right: 0;
+}
+a{
+  color: #b6b6b6;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #52004a;
+}
+input {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  width: 150px;
+  text-align: center;
+  color: #b6b6b6;
+  border: 1px solid #b6b6b678;
+}
+input::placeholder {
+  color: #b6b6b6;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 9px;
+    top: 15px;
+    z-index: 1;
+    cursor: pointer;
+  }
+.head{
+  margin-block: 35px;
+  font-size: 24px;
+  text-align: center;
+  color: var(--vt-c-volite);
+  text-transform: uppercase;
+  
+}
+
+.containBK{
+
+  position: relative;
+}
+
+.imgBK{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heads {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 3%;
+}
+.heads h3 {
+  margin: 0;
+  width: 50%;
+  color: var(--vt-c-volite);
+  font-size: 50px;
+}
+.heads h5 {
+  margin: 0;
+  width: 20%;
+  color: var(--vt-c-volite);
+  font-size: 26px;
+  font-family: "Poppins Regular";
+  line-height: 1.5;
+}
+
+
