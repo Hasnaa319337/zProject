@@ -33,9 +33,9 @@ export default {
   data() {
     return {
       slides: [
-        { img: "@/assets/images/bk1.jpg" },
-        { img: "@/assets/images/bk2.jpg" },
-        { img: "@/assets/images/bk3.jpg" },
+        { img: "http://127.0.0.1:5173/src/assets/images/bk1.jpg" },
+        { img: "http://127.0.0.1:5173/src/assets/images/bk2.jpg" },
+        { img: "http://127.0.0.1:5173/src/assets/images/bk3.jpg" },
       ],
     };
   },
