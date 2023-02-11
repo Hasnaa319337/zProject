@@ -17,13 +17,13 @@ export default createStore({
         rate: 4,
         priceAfter: 200,
         priceBefore: 400,
-        img: "@/assets/images/jellabiya.jpg",
+        img: "http://127.0.0.1:5173/src/assets/images/jellabiya.jpg",
         state: "Avialable",
         description:
           "A black abaya with a modern and distinctive design with sadu details and soft beads from the sleeves ",
         sizes: [50, 52, 54, 56],
         smallimages: [
-          "/src/assets/images/jellabiya.jpg",
+          "http://127.0.0.1:5173/src/assets/images/jellabiya.jpg",
           "/src/assets/images/small2.jpg",
           "/src/assets/images/small3.jpg",
           "/src/assets/images/small4.jpg",
