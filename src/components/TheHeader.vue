@@ -37,7 +37,8 @@
           </ul>
         </nav>
         <div class="buttons">
-          <div class="bag_div" v-if="currentUser.token">
+          <!--  v-if="currentUser.token" -->
+          <div class="bag_div"> 
             <button
               class="bag_icon"
               type="button"
