@@ -62,7 +62,7 @@
           </div>
         </div>
 
-        <div v-html="info" class="info"></div>
+   
       </div>
     </section>
 

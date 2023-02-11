@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="head">categories</h2>
       <div class="cats">
-        <div class="cat" v-for="(categorie, index) in catData" :key="index">
+        <div class="cat" v-for="(categorie, index) in categories" :key="index">
         
           <category-card :data="categorie" />
 
@@ -26,6 +26,12 @@ export default {
     return {
       catData: [],
     };
+  },
+  computed:{
+
+    categories(){
+      return this.$store.state.catData
+    }
   },
   mounted() {
     fetch("http://localhost:3000/catData")

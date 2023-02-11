@@ -253,6 +253,15 @@ export default createStore({
         colors:['#000' , '#ffc107' , '#830a48']
       },
     ],
+
+
+    catData: [
+      { "id":1, "categorieName": "Jellabiya", "img": "http://127.0.0.1:5173/src/assets/images/jellabiya.jpg" },
+      { "id":2, "categorieName": "cloch", "img": "http://127.0.0.1:5173/src/assets/images/cloch.jpg" },
+      { "id":3, "categorieName": "abaya", "img": "http://127.0.0.1:5173/src/assets/images/abaya.png" },
+      { "id":4, "categorieName": "farasha", "img": "http://127.0.0.1:5173/src/assets/images/farasha.jpg" },
+      { "id":5, "categorieName": "sale upto 60%", "img": "http://127.0.0.1:5173/src/assets/images/sale.jpg" }
+    ],
    cart:[],
   currentItemcount:0,
 
