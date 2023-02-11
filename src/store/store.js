@@ -40,13 +40,13 @@ export default createStore({
         rate: 3,
         priceAfter: 100,
         priceBefore: 300,
-        img: "/src/assets/images/dress2.jpg",
+        img: "http://127.0.0.1:5173/src/assets/images/dress2.jpg",
         state: "No Avialable",
         description:
           "A black abaya with a modern and distinctive design with sadu details and soft beads from the sleeves ",
         sizes: [50, 52],
         smallimages: [
-          "/src/assets/images/dress2.jpg",
+          "http://127.0.0.1:5173/src/assets/images/dress2.jpg",
           "/src/assets/images/small2.jpg",
           "/src/assets/images/small3.jpg",
           "/src/assets/images/small4.jpg",
