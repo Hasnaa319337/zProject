@@ -66,7 +66,7 @@
       </div>
     </section>
 
-    
+    <div>{{ info }}</div>
 
     <the-footer></the-footer>
   </div>
@@ -99,7 +99,7 @@ export default {
         url: "/general/settings",
       })
         .then((res) => {
-          this.info = res.data.data.about;
+          // this.info = res.data.data.about;
           this.image = res.data.data.about_image;
           // console.log(this.info);
         })
@@ -107,10 +107,15 @@ export default {
           console.log(error);
         });
     },
+
   },
+    
+  
+ 
 
   created() {
     this.getAboutData();
+    this.getCoursesData()
   },
 };
 </script>

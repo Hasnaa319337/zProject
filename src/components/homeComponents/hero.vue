@@ -10,7 +10,7 @@
         <img :src="slide.img" alt="" class="img" />
       </slide>
 
-      <template >
+      <template>
         <navigation />
         <pagination />
       </template>
@@ -33,9 +33,15 @@ export default {
   data() {
     return {
       slides: [
-        { img: "http://127.0.0.1:5173/src/assets/images/bk1.jpg" },
-        { img: "http://127.0.0.1:5173/src/assets/images/bk2.jpg" },
-        { img: "http://127.0.0.1:5173/src/assets/images/bk3.jpg" },
+        {
+          img: "https://static.wixstatic.com/media/623504_e7942bb7e62340099341dbc32a52e206~mv2.png/v1/fill/w_1899,h_748,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/623504_e7942bb7e62340099341dbc32a52e206~mv2.png",
+        },
+        {
+          img: "https://static.wixstatic.com/media/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg/v1/fill/w_1899,h_748,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a6e1bb8d93704b859a65ba5d3dd3645a~mv2.jpg",
+        },
+        {
+          img: "https://static.wixstatic.com/media/623504_e7942bb7e62340099341dbc32a52e206~mv2.png/v1/fill/w_1899,h_748,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/623504_e7942bb7e62340099341dbc32a52e206~mv2.png",
+        },
       ],
     };
   },
@@ -76,18 +82,18 @@ button {
 
   object-fit: cover;
 }
-.hero li{
-  padding-top:0 ;
+.hero li {
+  padding-top: 0;
   line-height: 0;
 }
-.carousel__prev, .carousel__next{
-  background: var(  --vt-c-volite);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+.carousel__prev,
+.carousel__next {
+  background: var(--vt-c-volite);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
-.carousel__icon{
-
+.carousel__icon {
   color: white;
 }
 </style>

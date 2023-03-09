@@ -68,7 +68,7 @@ footer{
   background-color: #eaf1f9;
   padding-top: 60px;
 }
-.socials{
+.socials {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
